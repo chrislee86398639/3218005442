@@ -28,6 +28,11 @@ public class Main{
         double similarity=(1-(1.0*minDistance/Math.max(Length1,Length2)))*100;//求得相似度
        Outcome out = new Outcome();
        out.outcome(similarity,answerFile);
+       /*
+       * 测试*/
+       Test test = new Test();
+       test.test();
+
 
     }
 }
