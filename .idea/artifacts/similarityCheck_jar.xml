@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="similarityCheck:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/similarityCheck_jar</output-path>
+    <root id="archive" name="similarityCheck.jar">
+      <element id="module-output" name="similarityCheck" />
+    </root>
+  </artifact>
+</component>
