@@ -7,23 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="230bed4e-267b-4bfe-b7a8-8cc35b3d4a0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestRoot/check/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/check/Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/check/checkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/similarityCheck_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/similarityCheck_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/similarityCheck_jar/similarityCheck.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/similarityCheck/check/ConvertString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/similarityCheck/check/ConvertString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/similarityCheck/check/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/similarityCheck/check/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/similarityCheck/check/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/similarityCheck/test1/answer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/similarityCheck/test1/answer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similarityCheck.iml" beforeDir="false" afterPath="$PROJECT_DIR$/similarityCheck.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/check/ConvertString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/check/ConvertString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/check/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/check/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1/answer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1/answer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/similarityCheck/check/Check.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/check/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/check/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/check/checkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/check/checkTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +51,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="jprofiler" />
@@ -200,10 +190,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestTest" />
         <item itemvalue="JUnit.MainTest.time" />
         <item itemvalue="JUnit.MainTest.NonexistPath" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +217,11 @@
       <workItem from="1600938005959" duration="492000" />
       <workItem from="1600939054977" duration="13405000" />
       <workItem from="1600952517441" duration="711000" />
+      <workItem from="1600953274875" duration="388000" />
+      <workItem from="1600953675133" duration="329000" />
+      <workItem from="1600954213381" duration="1049000" />
+      <workItem from="1600955288051" duration="113000" />
+      <workItem from="1600955431986" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="co">
       <created>1600924234194</created>

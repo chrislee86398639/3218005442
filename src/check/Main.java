@@ -2,9 +2,9 @@ package check;
 
 import java.io.*;
 
-public class  Check{
+public class  Main{
 
-    public static void  Check(String[] args) throws IOException {//io异常抛出
+    public static void  main(String[] args) throws IOException {//io异常抛出
 
         File originFile = new File(args[0]);
         File similarFile = new File(args[1]);
