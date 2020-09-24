@@ -1,43 +1,34 @@
 package check;
 
 public class LevenshteinEdit {//最小编辑距离动态规划
+    public static int minDistance(String str1, String str2) {
+        int len1 = str1.length();
+        int len2 = str2.length();
 
-    public int editDistanceCompute(String strA, String strB) {
-
-        int iLengthA = strA.length() + 1;
-        int iLengthB = strB.length() + 1;
-        int maxtri[][] = new int[iLengthA][iLengthB];
-
-        for (int i = 0; i < iLengthA; i++) {
-            maxtri[i][0] = i;
+        int dp[][] = new int[len1+1][len2+1];
+        for(int i = 0; i <= len1; i ++) {
+            dp[i][0] = i;
         }
-
-        for (int j = 1; j < iLengthB; j++) {
-            maxtri[0][j] = j;
+        for(int j = 0; j <= len2; j ++) {
+            dp[0][j] = j;
         }
-
-        for (int j = 1; j < iLengthB; j++) {
-
-            for (int i = 1; i < iLengthA; i++) {
-
-                int min = maxtri[i - 1][j - 1] + (strA.charAt(i - 1) == strB.charAt(j - 1) ? 0 : 1);
-
-                int iUp = maxtri[i][j - 1] + 1;
-
-                int iLeft = maxtri[i - 1][j] + 1;
-
-                if (min > iUp) {
-                    min = iUp;
+        for(int i = 0; i < len1; i ++) {
+            char c1 = str1.charAt(i);
+            for(int j = 0; j < len2; j ++) {
+                char c2 = str2.charAt(j);
+                if(c1 == c2) {
+                    dp[i+1][j+1] = dp[i][j];
                 }
-
-                if (min > iLeft) {
-                    min = iLeft;
+                else {
+                    int insert = dp[i+1][j] + 1;//插入字符
+                    int delete = dp[i][j+1] + 1;//删除字符
+                    int replace = dp[i][j] + 1;//替换字符
+                    int min = insert>delete ? delete : insert;
+                    min = min > replace ? replace : min;
+                    dp[i+1][j+1] = min;
                 }
-
-                maxtri[i][j] = min;
             }
         }
-
-        return maxtri[iLengthA - 1][iLengthB - 1];
+        return dp[len1][len2];
     }
 }

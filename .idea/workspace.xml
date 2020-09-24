@@ -1,28 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230bed4e-267b-4bfe-b7a8-8cc35b3d4a0d" name="Default Changelist" comment="" />
+    <list default="true" id="230bed4e-267b-4bfe-b7a8-8cc35b3d4a0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/check/ConvertString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/check/Outcome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/similarityCheck/check/LevenshteinEdit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/similarityCheck/check/LevenshteinEdit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/similarityCheck/check/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/similarityCheck/check/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/similarityCheck/test1/answer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/similarityCheck/test1/answer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/check/LevenshteinEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/check/LevenshteinEdit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/check/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/check/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1/answer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1/answer.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1huVyfRopqg1sJbrlCREbnfvLni" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\2046\IdeaProjects\paperSimilarityCheck\src\test1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\2046\IdeaProjects\similarityCheck\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="check" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\2046\IdeaProjects\paperSimilarityCheck\src\test1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -41,6 +72,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="check.Main" />
       <module name="similarityCheck" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test1/orig_0.8_add.txt  $USER_HOME$/Desktop/test1/orig_0.8_del.txt  $USER_HOME$/Desktop/test1/answer.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="check.*" />
@@ -63,6 +95,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.33" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -81,10 +117,25 @@
       <updated>1600861219766</updated>
       <workItem from="1600861224953" duration="389000" />
       <workItem from="1600861623135" duration="114000" />
+      <workItem from="1600904954885" duration="1486000" />
+      <workItem from="1600922781003" duration="541000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
