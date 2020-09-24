@@ -5,9 +5,14 @@ import java.io.*;
 public class ConvertString {
     public static String convert(File file) throws IOException {
 
-        String  str0 = "";
+        String str0 = "";
         String Str1 ="";
-        BufferedReader file1 = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
+        BufferedReader file1 = null;
+        try {
+            file1 = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
         while((str0 = file1.readLine()) != null){//将文本转化为String
             Str1 += str0 ;
